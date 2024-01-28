@@ -1,0 +1,7 @@
+ng serve -o compila y levanta ambiente frontend
+ng g class empleado
+	ng g class /classes/empleado
+
+ng g c /components/empleados/lista-empleados genera componente
+
+ng g s /services/empleado genera servicio
