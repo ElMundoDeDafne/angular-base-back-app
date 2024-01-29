@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'empleados-standalone-app';
+  // title = 'empleados-standalone-app';
+  title = 'Sistema gestión de empleados';
 }
