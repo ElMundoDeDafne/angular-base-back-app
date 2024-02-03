@@ -7,7 +7,7 @@ import { NotFound404Component } from './components/errors/not-found-404/not-foun
 const routes: Routes = [
   {path: 'empleados',component:ListaEmpleadosComponent}, //añade rutas
   {path:'',redirectTo:'empleados',pathMatch:'full'},
-  {path:'registrar-empleado',component: RegistrarEmpleadoComponent},
+  {path:'empleados/registrar',component: RegistrarEmpleadoComponent},
   {path:'**',component: NotFound404Component} //wildcard
 ];
 
